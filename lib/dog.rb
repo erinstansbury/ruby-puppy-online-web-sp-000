@@ -5,4 +5,8 @@ class Dog
   end
 
   @@all = []
+
+  def self.all
+    @@all
+  end
 end
