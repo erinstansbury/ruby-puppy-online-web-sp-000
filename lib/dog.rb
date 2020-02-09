@@ -8,6 +8,11 @@ class Dog
     save
   end
 
+  def self.all
+    @@all.each do |dogs|
+      return dogs
+  end
+
   def self.print_all
     @@all.each do |dog|
       puts dog.name
